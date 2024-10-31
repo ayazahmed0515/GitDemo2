@@ -30,7 +30,9 @@ public class CaptureToolTipText {
 		System.out.println("Hello2");
 		System.out.println("Hello3");
 		System.out.println("Hello4");
-		
+		System.out.println("Hello5");
+		System.out.println("Hello6");
+		System.out.println("Hello7");
 		driver.quit();
 		
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmad\\chromedriver_win32\\chromedriver.exe");
