@@ -26,7 +26,11 @@ public class CaptureToolTipText {
 		a.moveToElement(button);
 		String ToolTipText=button.getAttribute("title");
 		System.out.println(ToolTipText);
-		//System.out.println("Hello1");
+		System.out.println("Hello1");
+		System.out.println("Hello2");
+		System.out.println("Hello3");
+		System.out.println("Hello4");
+		
 		driver.quit();
 		
 //		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ahmad\\chromedriver_win32\\chromedriver.exe");
