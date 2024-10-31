@@ -35,6 +35,9 @@ public class HandlingChildWindows {
 //		System.out.println(text1[1].trim().split(" ")[0]);
 		String email=driver.findElement(By.cssSelector(".im-para.red")).getText().split("at")[1].trim().split(" ")[0];
 		System.out.println(email);
+		System.out.println("Hello");
+		System.out.println("Hello2");
+		System.out.println("Hello34");
 		driver.switchTo().window(parent);
 		driver.findElement(By.cssSelector("#username")).sendKeys(email);
 		driver.quit();
